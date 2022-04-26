@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .tu1{ z-index:-1;
+            width: 100%;
+            height: 900px;
+        }
+        /* 实现页头滚动且填满 */
+        .yeTou{position:fixed;   
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 90px;
+            background-color: rgba(0, 0,0,0.8);
+            border-bottom: 4px solid #62eaf5;
+        }
+        .yeTouDaoHang{
+            position: absolute;
+             top: 9px;
+             left: 130px;
+        }
+        .g2{margin-right: 15px;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+        .zi1{font-style: italic;
+            color: #fff;
+            font-weight: 800;
+            font-size: 19px;
+        }
+        .zi2{font-style: italic;
+            color: #62eaf5;
+            font-weight: 800;
+            font-size: 19px;
+        }
+        .fuHao{position: relative;
+        top: 5px;
+            font-size: 35px;
+            color: #194456;
+            font-weight: 600;
+        }
+        .g{
+            display: inline-block;
+            margin-right: 70px;
+        }
+        .yetouxiao{position: relative;
+        top: 50px;
+        left: 150px;}
+        .xg{font-size: 10px;
+            color: #30636c;
+            font-weight: 800;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="files/2.RAW" alt="" class="tu1">
+    </div>
+
+    <div class="yeTou">
+       <ul class="yeTouDaoHang">
+           <li class="g2"><a href="#" class="zi1">官网首页</a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+           <li class="g2"><a href="https://www.bh3.com/news" class="zi2">作战资讯</a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+           <li class="g2"><a href="https://www.bh3.com/valkyries"  class="zi2"> &nbsp;女武神  &nbsp; </a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+           <li class="g2"><a href="https://www.bh3.com/wallpapers"  class="zi2">动画壁纸</a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+           <li class="g2"><a href="https://mihoyo.tmall.com/"  class="zi2">周边商城</a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+           <li class="g2"><a href="https://bbs.mihoyo.com/bh3/"  class="zi2">官方社区</a></li>
+           <li class="g2"><a href="#" class="fuHao">/</a></li>
+       </ul>
+       <ul class="yetouxiao">
+           <li class="g"><a href="#" class="xg">HOME</a></li>
+           <li class="g"><a href="https://www.bh3.com/news" class="xg">NEWS</a></li>
+           <li class="g"><a href="https://www.bh3.com/valkyries" class="xg">&nbsp;VALKYRIES</a></li>
+           <li class="g"><a href="https://www.bh3.com/wallpapers" class="xg">WALLPAPERS</a></li>
+           <li class="g"><a href="https://mihoyo.tmall.com/" class="xg">MERCH</a></li>
+           <li class="g"><a href="https://bbs.mihoyo.com/bh3/" class="xg">FORUM</a></li>
+       </ul>
+    </div>
+</body>
+</html>
